@@ -56,7 +56,38 @@ The following specs were used to create the original solution.
 - NVIDIA Tesla V100-SXM2-32GB
 
 ## Code Structure
-
+```text
+code/
+├
+├── code/                   
+│   ├── augmentation.py                         # augmentations
+│   ├── inference.py
+│   ├── load_data.py
+│   ├── loss.py                                 # customized loss functions
+│   ├── model.py                                # define or load models
+│   ├── tokenizer.py                            # load tokenizer and tokenized dataset
+│   ├── train.py                    
+│   ├── trainer.py                              # customized trainer for customized loss
+│   ├── utils.py                                # utilities
+│   ├── args.txt                                # arguments for training
+│   ├── run.sh                                  # shell script for train.py
+│   ├── dict_label_to_num.pkl
+│   └── dict_num_to_label.pkl
+│
+└── dataset/                     
+    ├── backtranslation/                        # back translation dataset
+    │   ├── bt_realation_dataset.csv
+    │   ├── bt_under_500_dataset.csv
+    │   └── bt_under_1000_dataset.csv
+    ├── stopwords/                              # stopwords dataset
+    │   ├── StopWords_klue_bert-base_5.txt
+    │   ├── StopWords_klue_roberta-base_5.txt
+    │   └── StopWords_roberta-s5.txt
+    ├── test/
+    │   └── test_data.csv
+    └── train/
+        └── train.csv
+```
 ## Detail
 
 
