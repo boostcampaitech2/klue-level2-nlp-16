@@ -9,9 +9,15 @@
 
 ## Project Overview
   * 목표
+    - 문장 속에서 단어(Entity)에 대한 속성과 관계를 예측하는 관계 추출(Relation Extraction)
   * 모델
+    - klue/roberta-large 
   * Data
+    - KLUE data
+    - column : sentence, subject_entity, object_entity, relation(label)
   * Result
+    - Public score : micro_f1 70.465 auprc 76.309
+    - Private score : micro_f1 69.182 auprc 77.534 
   * Contributors
     * 김아경([github](https://github.com/EP000)): Exploratory Data Analysis, Stop Words
     * 김현욱([github](https://github.com/powerwook)): Hyperparameter tuning 및 MLOps 조사
