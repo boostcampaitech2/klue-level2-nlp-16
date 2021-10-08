@@ -87,5 +87,13 @@ The following specs were used to create the original solution.
         └── train.csv
 ```
 ## Detail
+  * Data Augmentation Methods
+    * Backtranslation
+    * Easy Data Augmentation
+      * Random Swap: 문장 중 임의의 두 단어 위치를 바꾸어 문장 생성
+      * Random Delete: 문장 중 subject 와 object를 제외한 단어를 지운 문장 생성
+    * A Easier Data Augmentation(AEDA): 문장 중간간에 랜덤하게 문장부호를 넣어 문장을 생성
+    * Switch Subject and Object: Subject와 Object가 변경 가능한 관계는 변경한 문장을 생성
+    * Subject, Object Dictionary: 각 Subject와 Object의 entity를 key로한 dictionary 제작 후, 각 entity에 맞는 임의의 단어로 변경한 문장을 생성
 
 
