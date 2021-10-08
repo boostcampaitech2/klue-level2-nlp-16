@@ -20,6 +20,12 @@
     * 정재현([github](https://github.com/JHyunJung))
     * 최윤성([github](https://github.com/choi-yunsung))
 
+## Hardware
+The following specs were used to create the original solution.
+- Ubuntu 18.04.5 LTS
+- Intel(R) Xeon(R) Gold 5120 CPU @ 2.20GHz
+- NVIDIA Tesla V100-SXM2-32GB
+
 ## Getting Started 
 
 ## Code Structure
