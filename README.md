@@ -24,8 +24,6 @@
 
 ## Code Structure
 
-## Result
-
 ## Detail
 
 
