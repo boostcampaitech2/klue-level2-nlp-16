@@ -12,13 +12,13 @@
   * Data
   * Result
   * Contributors
-    * 김아경([github](https://github.com/EP000))
-    * 김현욱([github](https://github.com/powerwook))
-    * 김황대([github](https://github.com/kimhwangdae))
-    * 박상류([github](https://github.com/psrpsj))
-    * 사공진([github](https://github.com/tkrhdwls))
-    * 정재현([github](https://github.com/JHyunJung))
-    * 최윤성([github](https://github.com/choi-yunsung))
+    * 김아경([github](https://github.com/EP000)): Exploratory Data Analysis, Stop Words
+    * 김현욱([github](https://github.com/powerwook)): Hyperparameter tuning 및 MLOps 조사
+    * 김황대([github](https://github.com/kimhwangdae)): Model testing, Baseline code refactoring, Speical token 추가 및 testing, Hyperparameter tuning
+    * 박상류([github](https://github.com/psrpsj)): Data Augmentation 구현 및 tesing
+    * 사공진([github](https://github.com/tkrhdwls)): baseline 코드 분석 및 실험
+    * 정재현([github](https://github.com/JHyunJung)): 프로젝트 Git 환경 설정
+    * 최윤성([github](https://github.com/choi-yunsung)): Back Translation, Input Sequence Alteration, Custom Loss, soruce_based multi-model training, WandB연동
 
 ## Getting Started
   * Install requirements
@@ -31,11 +31,11 @@
     ```
   * Train model
     ``` bash
-      # 사전 argument arg.txt에 다음과 같은 형식으로 입력
-      # 아래는 require argument만 입력되어있고, 다른 하이퍼피라미터도 제어 가능
+      # 사전 argument arg.txt에 다음과 같은 형식으로 입력.
+      # 아래는 require argument만 입력되어있고, 다른 hyperparameter 또한 설정 가능.
       --project_name [Project Name] --model_name [Model Name] --run_name [Run Name] --input_style [Input style(baseline, relation_token, daum)]
 
-      # arg.txt 저장 후 shell script 실행
+      # arg.txt 저장 후 shell script 실행.
       ./run.sh
     ```
   * Inference Model
