@@ -57,8 +57,6 @@ The following specs were used to create the original solution.
 
 ## Code Structure
 ```text
-code/
-├
 ├── code/                   
 │   ├── augmentation.py                         # augmentations
 │   ├── inference.py
