@@ -16,7 +16,7 @@
     * 김아경([github](https://github.com/EP000)): Exploratory Data Analysis, Stop Words
     * 김현욱([github](https://github.com/powerwook)): Hyperparameter tuning 및 MLOps 조사
     * 김황대([github](https://github.com/kimhwangdae)): Model testing, Baseline code refactoring, Speical token 추가 및 testing, Hyperparameter tuning
-    * 박상류([github](https://github.com/psrpsj)): Data Augmentation 구현 및 tesing
+    * 박상류([github](https://github.com/psrpsj)): Data Augmentation 구현 및 testing
     * 사공진([github](https://github.com/tkrhdwls)): baseline 코드 분석 및 실험
     * 정재현([github](https://github.com/JHyunJung)): 프로젝트 Git 환경 설정
     * 최윤성([github](https://github.com/choi-yunsung)): Back Translation, Input Sequence Alteration, Custom Loss, soruce_based multi-model training, WandB연동
