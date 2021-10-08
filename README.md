@@ -20,7 +20,6 @@
     * 정재현([github](https://github.com/JHyunJung))
     * 최윤성([github](https://github.com/choi-yunsung))
 
-<<<<<<< HEAD
 ## Getting Started
   * Install requirements
     ``` bash
@@ -43,7 +42,6 @@
     ```bash
       python inference.py --model_name [Model Name] --input_style [Input style(baseline, relation_token, daum)]
     ```
-=======
 ## Hardware
 The following specs were used to create the original solution.
 - Ubuntu 18.04.5 LTS
@@ -51,7 +49,6 @@ The following specs were used to create the original solution.
 - NVIDIA Tesla V100-SXM2-32GB
 
 ## Getting Started 
->>>>>>> c054cd0e24e1e9cb88935e1238ecf65565f98b5a
 
 ## Code Structure
 
