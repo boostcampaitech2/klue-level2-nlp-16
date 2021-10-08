@@ -89,6 +89,7 @@ The following specs were used to create the original solution.
 ## Detail
   * Data Augmentation Methods
     * Backtranslation
+      * 문장을 다른 언어(영어)로 번역한 뒤 다시 원래 언어(한국어)로 번역하여 문장의 뉘앙스만 변경시킨 데이터를 생성(Papago번역, Pororo라이브러리 활용)
     * Easy Data Augmentation
       * Random Swap: 문장 중 임의의 두 단어 위치를 바꾸어 문장 생성
       * Random Delete: 문장 중 subject 와 object를 제외한 단어를 지운 문장 생성
