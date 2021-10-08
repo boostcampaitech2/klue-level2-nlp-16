@@ -96,5 +96,10 @@ The following specs were used to create the original solution.
     * A Easier Data Augmentation(AEDA): 문장 중간간에 랜덤하게 문장부호를 넣어 문장을 생성
     * Switch Subject and Object: Subject와 Object가 변경 가능한 관계는 변경한 문장을 생성
     * Subject, Object Dictionary: 각 Subject와 Object의 entity를 key로한 dictionary 제작 후, 각 entity에 맞는 임의의 단어로 변경한 문장을 생성
+  * Stop Words
+    * 모델과 동일한 토크나이저로 토크나이징 후 빈도수 기반으로 상위 5%와 하위 5%를 제외
+    * subject_entity와 object_entity 제외
+    * 상위, 하위 10% 이상 제거하면 오히려 성능 하락
+    * 주로 사용되는 '한국어 불용어 셋'는 사용하지 않는게 좋음 
 
 
